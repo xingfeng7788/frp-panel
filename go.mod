@@ -4,6 +4,8 @@ go 1.24.0
 
 toolchain go1.24.1
 
+replace github.com/fatedier/frp => github.com/xingfeng7788/frp-ip4p v0.65.0
+
 require (
 	github.com/UserExistsError/conpty v0.1.4
 	github.com/casbin/casbin/v2 v2.105.0
@@ -27,7 +29,6 @@ require (
 	github.com/joho/godotenv v1.5.1
 	github.com/kardianos/service v1.2.2
 	github.com/lucasepe/codename v0.2.0
-	github.com/pion/stun/v3 v3.0.2
 	github.com/prometheus-community/pro-bing v0.7.0
 	github.com/samber/lo v1.47.0
 	github.com/shirou/gopsutil/v4 v4.25.4
@@ -109,7 +110,6 @@ require (
 	github.com/modern-go/reflect2 v1.0.2 // indirect
 	github.com/pelletier/go-toml/v2 v2.2.0 // indirect
 	github.com/pion/dtls/v2 v2.2.7 // indirect
-	github.com/pion/dtls/v3 v3.0.8 // indirect
 	github.com/pion/logging v0.2.4 // indirect
 	github.com/pion/stun/v2 v2.0.0 // indirect
 	github.com/pion/transport/v2 v2.2.1 // indirect
