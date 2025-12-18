@@ -38,7 +38,7 @@ jobs:
       - name: Tag Release
         uses: "marvinpinto/action-automatic-releases@latest"
         with:
-          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          repo_token: "${{ secrets.PERSON_GITHUB_TOKEN }}"
           prerelease: false
           automatic_release_tag: ${{ steps.get_version.outputs.VERSION }}
           files: |
@@ -46,7 +46,7 @@ jobs:
       - name: Latest Release
         uses: "marvinpinto/action-automatic-releases@latest"
         with:
-          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          repo_token: "${{ secrets.PERSON_GITHUB_TOKEN }}"
           prerelease: false
           automatic_release_tag: latest
           files: |
